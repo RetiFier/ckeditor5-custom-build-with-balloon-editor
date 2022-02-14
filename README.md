@@ -2,8 +2,7 @@
 
 # Usage
 
-> npm install @ckeditor/ckeditor5-react'
-> npm install ckeditor5-custom-build-with-balloon-editor
+> npm install @ckeditor/ckeditor5-react ckeditor5-custom-build-with-balloon-editor
 
     import CKEditor from ('@ckeditor/ckeditor5-react')
 

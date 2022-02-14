@@ -3,7 +3,7 @@
   "author": "Reti Fier",
   "description": "Custom Balloon CK Editor for React",
   "main": "./build/ckeditor.js",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "license": "GPL-2.0-or-later",
   "repository": {
     "type": "git",
