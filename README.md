@@ -1,61 +1,116 @@
-# CKEditor 5 editor generated with the online builder for React & Next JS
+# CKEditor 5 Balloon Editor for React & NextJS
 
-# First add Import
-import CKEditor from ('@ckeditor/ckeditor5-react')
+# Usage
 
-Import CustomBalloonEditor from ('ckeditor5-custom-build-with-balloon-editor')
+> npm install @ckeditor/ckeditor5-react'
+> npm install ckeditor5-custom-build-with-balloon-editor
 
-# Add Component like this
+    import CKEditor from ('@ckeditor/ckeditor5-react')
+
+    import CustomBalloonEditor from ('ckeditor5-custom-build-with-balloon-editor')
+
+# Component Usage
+
+More details please refer https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/frameworks/react.html#component-properties
+
 ```javascript
 
-	<CKEditor
-					editor={CustomBalloonEditor}
-					data="<p>Type Your Text</p>"
-					onInit={(editor) => {
-						// You can store the "editor" and use when it is needed.
-					}}
-					onChange={(event, editor) => {
-						const data = editor.getData();
-						setEditData(data);
-					}}
-					config={{	toolbar: {
-				items: [
-					'heading',
-					'|',
-					'bold',
-					'italic',
-					'link',
-					'bulletedList',
-					'numberedList',
-					'|',
-					'|',
-					'imageUpload',
-					'blockQuote',
-					'insertTable',
-					'mediaEmbed',
-					'undo',
-					'redo',
-					'alignment',
-					'fontSize',
-					'highlight'
-				]
-			},
-			language: 'en',
-			image: {
-				toolbar: [
-					'imageTextAlternative',
-					'imageStyle:full',
-					'imageStyle:side'
-				]
-			},
-			table: {
-				contentToolbar: [
-					'tableColumn',
-					'tableRow',
-					'mergeTableCells'
-				]
-			}}
-				/>
+
+<CKEditor
+
+editor={CustomBalloonEditor}
+
+data="<p>Type Your Text</p>"
+
+onInit={(editor)  =>  {
+
+// You can store the "editor" and use when it is needed.
+
+}}
+
+onChange={(event, editor)  =>  {
+
+const  data  = editor.getData();
+
+setEditData(data);
+
+}}
+
+config={{  toolbar: {
+
+items: [
+
+'heading',
+
+'|',
+
+'bold',
+
+'italic',
+
+'link',
+
+'bulletedList',
+
+'numberedList',
+
+'|',
+
+'|',
+
+'imageUpload',
+
+'blockQuote',
+
+'insertTable',
+
+'mediaEmbed',
+
+'undo',
+
+'redo',
+
+'alignment',
+
+'fontSize',
+
+'highlight'
+
+]
+
+},
+
+language: 'en',
+
+image: {
+
+toolbar: [
+
+'imageTextAlternative',
+
+'imageStyle:full',
+
+'imageStyle:side'
+
+]
+
+},
+
+table: {
+
+contentToolbar: [
+
+'tableColumn',
+
+'tableRow',
+
+'mergeTableCells'
+
+]
+
+}}
+
+/>
 ```
 
 # Result

@@ -1,10 +1,14 @@
 {
   "name": "ckeditor5-custom-build-with-balloon-editor",
   "author": "Reti Fier",
-  "description": "Custom Balloon CK Editor",
+  "description": "Custom Balloon CK Editor for React",
   "main": "./build/ckeditor.js",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "license": "GPL-2.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RetiFier/ckeditor5-custom-build-with-balloon-editor.git"
+  },
   "keywords": [
     "wysiwyg",
     "rich text",
@@ -27,7 +31,6 @@
     "ckeditor 5 custom build for nextjs",
     "ckeditor 5 react",
     "ckeditor 5 nextjs"
-
   ],
   "devDependencies": {
     "@ckeditor/ckeditor5-core": "^23.0.0",
@@ -65,7 +68,7 @@
   },
   "files": [
     "build"
-  ], 
+  ],
   "engines": {
     "node": ">=12.0.0",
     "npm": ">=5.7.1"
